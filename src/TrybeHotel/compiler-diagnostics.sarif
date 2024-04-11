@@ -5,12 +5,28 @@
     {
       "tool": {
         "name": "Compilador do Microsoft (R) Visual C#",
-        "version": "4.2.0.0",
-        "fileVersion": "4.2.0-4.22220.5 (432d17a8)",
-        "semanticVersion": "4.2.0",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
         "language": "pt-BR"
       },
       "results": [
+        {
+          "ruleId": "CS8032",
+          "level": "warning",
+          "message": "Uma instância do analisador de Microsoft.EntityFrameworkCore.InternalUsageDiagnosticAnalyzer não pode ser criada de /home/frederico/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.4/analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll : Could not load file or assembly 'Microsoft.CodeAnalysis, Version=4.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'. The system cannot find the file specified..",
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8032",
+          "level": "warning",
+          "message": "Uma instância do analisador de Microsoft.EntityFrameworkCore.UninitializedDbSetDiagnosticSuppressor não pode ser criada de /home/frederico/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.4/analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll : Could not load file or assembly 'Microsoft.CodeAnalysis, Version=4.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'. The system cannot find the file specified..",
+          "properties": {
+            "warningLevel": 1
+          }
+        },
         {
           "ruleId": "CS8618",
           "level": "warning",
@@ -18,20 +34,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/danilosilva/Documents/Trybe/C%23/Eletiva/Projetos-oficiais/csharp-0x-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/TokenOptions.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 23,
-                  "endLine": 6,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///Users/danilosilva/Documents/Trybe/C%23/Eletiva/Projetos-oficiais/csharp-0x-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/TokenOptions.cs",
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/TokenOptions.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 23,
@@ -46,18 +49,39 @@
           }
         },
         {
-          "ruleId": "CS1998",
+          "ruleId": "CS0168",
           "level": "warning",
-          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "message": "A variável \"e\" está declarada, mas nunca é usada",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/danilosilva/Documents/Trybe/C%23/Eletiva/Projetos-oficiais/csharp-0x-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/UserController.cs",
                 "region": {
-                  "startLine": 16,
-                  "startColumn": 35,
-                  "endLine": 16,
-                  "endColumn": 47
+                  "startLine": 32,
+                  "startColumn": 30,
+                  "endLine": 32,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possível argumento de referência nula para o parâmetro 'value' em 'Claim.Claim(string type, string value)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/TokenGenerator.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 57,
+                  "endLine": 45,
+                  "endColumn": 67
                 }
               }
             }
@@ -67,18 +91,18 @@
           }
         },
         {
-          "ruleId": "CS1998",
+          "ruleId": "CS8604",
           "level": "warning",
-          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "message": "Possível argumento de referência nula para o parâmetro 'userEmail' em 'UserDto IUserRepository.GetUserByEmail(string userEmail)'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/danilosilva/Documents/Trybe/C%23/Eletiva/Projetos-oficiais/csharp-0x-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/UserController.cs",
                 "region": {
-                  "startLine": 22,
-                  "startColumn": 43,
-                  "endLine": 22,
-                  "endColumn": 57
+                  "startLine": 43,
+                  "startColumn": 68,
+                  "endLine": 43,
+                  "endColumn": 78
                 }
               }
             }
@@ -88,18 +112,186 @@
           }
         },
         {
-          "ruleId": "CS1998",
+          "ruleId": "CS8604",
           "level": "warning",
-          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "message": "Possível argumento de referência nula para o parâmetro 'email' em 'BookingResponse IBookingRepository.GetBooking(int bookingId, string email)'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/danilosilva/Documents/Trybe/C%23/Eletiva/Projetos-oficiais/csharp-0x-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/GeoService.cs",
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/BookingController.cs",
                 "region": {
-                  "startLine": 28,
-                  "startColumn": 54,
-                  "endLine": 28,
-                  "endColumn": 68
+                  "startLine": 54,
+                  "startColumn": 66,
+                  "endLine": 54,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/HotelRepository.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 28,
+                  "endLine": 23,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 26,
+                  "endLine": 33,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possível retorno de referência nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/UserRepository.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 20,
+                  "endLine": 69,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/HotelRepository.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 28,
+                  "endLine": 44,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 32,
+                  "endLine": 27,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 36,
+                  "endLine": 31,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 65,
+                  "endLine": 79,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 32,
+                  "endLine": 90,
+                  "endColumn": 36
                 }
               }
             }
@@ -115,7 +307,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/danilosilva/Documents/Trybe/C%23/Eletiva/Projetos-oficiais/csharp-0x-projeto-trybe-hotel-fase-d/src/TrybeHotel/Program.cs",
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Program.cs",
                 "region": {
                   "startLine": 99,
                   "startColumn": 22,
@@ -128,12 +320,33 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///Users/danilosilva/Documents/Trybe/C%23/Eletiva/Projetos-oficiais/csharp-0x-projeto-trybe-hotel-fase-d/src/TrybeHotel/Program.cs",
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Program.cs",
                 "region": {
                   "startLine": 10,
                   "startColumn": 1,
                   "endLine": 10,
                   "endColumn": 4
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'AddClaims' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/TokenGenerator.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 32,
+                  "endLine": 42,
+                  "endColumn": 41
                 }
               }
             }
@@ -160,11 +373,83 @@
             ]
           }
         },
-        "CS1998": {
-          "id": "CS1998",
-          "shortDescription": "O método assíncrono não possui operadores 'await' e será executado de forma síncrona",
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0168": {
+          "id": "CS0168",
+          "shortDescription": "A variável foi declarada, mas nunca foi usada",
           "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1998)",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0168)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8032": {
+          "id": "CS8032",
+          "shortDescription": "Não é possível criar uma instância do analisador",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8032)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Desreferência de uma referência possivelmente nula.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Possível retorno de referência nula.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Possível argumento de referência nula.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,
