@@ -7,6 +7,6 @@ namespace TrybeHotel.Controllers
     [Route("/")]
     public class StatusController : Controller
     {
-    
+        return Ok(new { message = "online" });
     }
 }
