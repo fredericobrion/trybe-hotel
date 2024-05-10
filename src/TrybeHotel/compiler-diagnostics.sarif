@@ -34,12 +34,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/TokenOptions.cs",
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Services/TokenOptions.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 23,
                   "endLine": 6,
                   "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possível argumento de referência nula para o parâmetro 'value' em 'Claim.Claim(string type, string value)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Services/TokenGenerator.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 57,
+                  "endLine": 45,
+                  "endColumn": 67
                 }
               }
             }
@@ -55,7 +76,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/UserController.cs",
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Controllers/UserController.cs",
                 "region": {
                   "startLine": 32,
                   "startColumn": 30,
@@ -72,32 +93,11 @@
         {
           "ruleId": "CS8604",
           "level": "warning",
-          "message": "Possível argumento de referência nula para o parâmetro 'value' em 'Claim.Claim(string type, string value)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/TokenGenerator.cs",
-                "region": {
-                  "startLine": 45,
-                  "startColumn": 57,
-                  "endLine": 45,
-                  "endColumn": 67
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
           "message": "Possível argumento de referência nula para o parâmetro 'userEmail' em 'UserDto IUserRepository.GetUserByEmail(string userEmail)'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/UserController.cs",
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Controllers/UserController.cs",
                 "region": {
                   "startLine": 43,
                   "startColumn": 68,
@@ -118,54 +118,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/BookingController.cs",
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Controllers/BookingController.cs",
                 "region": {
                   "startLine": 54,
                   "startColumn": 66,
                   "endLine": 54,
                   "endColumn": 71
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/HotelRepository.cs",
-                "region": {
-                  "startLine": 23,
-                  "startColumn": 28,
-                  "endLine": 23,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
-                "region": {
-                  "startLine": 33,
-                  "startColumn": 26,
-                  "endLine": 33,
-                  "endColumn": 30
                 }
               }
             }
@@ -181,7 +139,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/UserRepository.cs",
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Repository/UserRepository.cs",
                 "region": {
                   "startLine": 69,
                   "startColumn": 20,
@@ -202,12 +160,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/HotelRepository.cs",
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Repository/BookingRepository.cs",
                 "region": {
-                  "startLine": 44,
+                  "startLine": 33,
+                  "startColumn": 26,
+                  "endLine": 33,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Repository/HotelRepository.cs",
+                "region": {
+                  "startLine": 23,
                   "startColumn": 28,
-                  "endLine": 44,
-                  "endColumn": 42
+                  "endLine": 23,
+                  "endColumn": 34
                 }
               }
             }
@@ -223,49 +202,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/RoomRepository.cs",
-                "region": {
-                  "startLine": 27,
-                  "startColumn": 32,
-                  "endLine": 27,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/RoomRepository.cs",
-                "region": {
-                  "startLine": 31,
-                  "startColumn": 36,
-                  "endLine": 31,
-                  "endColumn": 48
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Repository/BookingRepository.cs",
                 "region": {
                   "startLine": 79,
                   "startColumn": 65,
@@ -286,12 +223,75 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Repository/BookingRepository.cs",
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Repository/BookingRepository.cs",
                 "region": {
                   "startLine": 90,
                   "startColumn": 32,
                   "endLine": 90,
                   "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Repository/HotelRepository.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 28,
+                  "endLine": 44,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 32,
+                  "endLine": 27,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 36,
+                  "endLine": 31,
+                  "endColumn": 48
                 }
               }
             }
@@ -307,7 +307,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Program.cs",
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Program.cs",
                 "region": {
                   "startLine": 99,
                   "startColumn": 22,
@@ -320,7 +320,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Program.cs",
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Program.cs",
                 "region": {
                   "startLine": 10,
                   "startColumn": 1,
@@ -341,7 +341,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/frederico/Documents/trybe/projetos/csharp-032-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Services/TokenGenerator.cs",
+                "uri": "file:///home/frederico/Desktop/trybe-hotel/src/TrybeHotel/Services/TokenGenerator.cs",
                 "region": {
                   "startLine": 42,
                   "startColumn": 32,
