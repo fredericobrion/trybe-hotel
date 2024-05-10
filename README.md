@@ -22,7 +22,15 @@ Uma API RESTful para uma rede de hotéis. É possível cadastrar cidades, hotéi
    ```
    cd src && dotnet restore
    ```
-4.  Inicie a aplicação:
+4. Crie a migration inicial:
+   ```
+   cd TrybeHotel && dotnet ef migrations add InitialCreate
+   ```
+5. Atualize o banco de dados:
+   ```
+   dotnet ef database update
+   ```   
+6.  Inicie a aplicação:
    ```
    cd TrybeHotel && dotnet start
    ```
@@ -30,3 +38,5 @@ Uma API RESTful para uma rede de hotéis. É possível cadastrar cidades, hotéi
 ## 🧪 Testes
 Em construção 👷‍♂️
 
+## 🗺️ Funcionalidades
+1. 
