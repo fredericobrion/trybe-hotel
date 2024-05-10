@@ -76,9 +76,9 @@ Em construção 👷‍♂️
          }
         ```
    
-4. Endpoint ```/hotel``` para as cidades
-   - ```GET /hotel``` para listar as cidades cadastradas.
-   - ```POST /hotel``` para cadastrar uma cidade.
+4. Endpoint ```/hotel``` para os hotéis
+   - ```GET /hotel``` para listar os hotéis cadastrados.
+   - ```POST /hotel``` para cadastrar um hotel.
       - O corpo da requisição deverá ter o seguinte formato:
         ```
          {
@@ -87,7 +87,7 @@ Em construção 👷‍♂️
       	"CityId": 2
          }
         ```
-   - ```PUT /hotel``` para cadastrar uma cidade.
+   - ```PUT /hotel``` para atualizar um hotel.
       - O corpo da requisição deverá ter o seguinte formato:
         ```
          {
@@ -96,3 +96,40 @@ Em construção 👷‍♂️
          "CityId": 2
          }
         ```
+
+5. Endpoint ```/room``` para os quartos
+     - ```POST /room``` para criar um quarto.
+       - O corpo da requisição deverá seguir o seguinte formato:
+         ```
+         {
+         	"Name":"Suite básica",
+         	"Capacity":2,
+         	"Image":"image suite",
+         	"HotelId": 1
+         }
+         ```
+      - ```GET /room/:hotelid``` para listar os quartos de um determinado hotel.
+      - ```DELETE /room/:roomId``` para deletar um determinado quarto.
+  
+6. Endpoint ```/booking``` para as reservas
+      - ```GET /booking/:id``` para listar uma reserva.
+      - ```POST /booking``` para criar uma reserva;
+        - O corpo da requisição deverá seguir o seguinte formato:
+         ```
+         {
+      	"CheckIn":"2030-08-27",
+      	"CheckOut":"2030-08-28",
+      	"GuestQuant":"1",
+      	"RoomId":1
+         }
+         ```
+7. Endpoint ```GET /geo/status``` para conferir o status da API externa responsável pela geolocalização.
+8. Endpoint ```GET /geo/address``` para trazer os hoteis ordenados por distância de um endereço.
+   - O corpo da requisição deverá ter o seguinte padrão:
+     ```
+     {
+        "Address":"Rua Arnaldo Barreto",
+          "City":"Campinas",
+          "State":"SP"
+      }
+     ```
