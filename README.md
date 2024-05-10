@@ -1,10 +1,10 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Trybe Hotel
+
+## 📝 Descrição:
+Uma API RESTful para uma rede de hotéis. É possível cadastrar cidades, hotéis, quartos e reservas. A API possui rotas autenticadas para maior segurança da aplicação. Além disso é possível encontrar os hotéis mais pertos a partir de um endereço buscado.
+
+## 💻 Tecnologias utilizadas:
+- <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a>
+- <a href="https://learn.microsoft.com/pt-br/ef/" target="_blank">Entity Framework</a>
+- <a href="https://www.microsoft.com/pt-br/sql-server" target="_blank">SQL Server</a>
+- <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" target="_blank">ASP.NET Core</a>
