@@ -39,4 +39,60 @@ Uma API RESTful para uma rede de hotéis. É possível cadastrar cidades, hotéi
 Em construção 👷‍♂️
 
 ## 🗺️ Funcionalidades
-1. 
+1. Cadastro de usuário através do endpoint ```POST /user```.
+   - O corpo da requisição deverá ser no seguinte formato:
+     ```
+     {
+   	 "Name":"Rebeca",
+   	 "Email": "rebeca.santos@trybehotel.com",
+   	 "Password": "123456"
+     }
+      ```
+2. Login de um usuário cadastrado através do endpoint ```POST /login```.
+   - O corpo da requisição deverá ser no seguinte formato:
+     ```
+     {
+   	 "Email": "rebeca.santos@trybehotel.com",
+   	 "Password": "123456"
+     }
+      ```
+3. Endpoint ```/city``` para as cidades
+   - ```GET /city``` para listar as cidades cadastradas.
+   - ```POST /city``` para cadastrar uma cidade.
+      - O corpo da requisição deverá ter o seguinte formato:
+        ```
+         {
+      	"Name": "Rio de Janeiro",
+      	"State": "RJ"
+         }
+        ```
+   - ```PUT /city``` para atualizar uma cidade.
+      - O corpo da requisição deverá ter o seguinte formato:
+        ```
+         {
+         "CityId": 1
+      	"Name": "Rio de Janeiro",
+      	"State": "RJ"
+         }
+        ```
+   
+4. Endpoint ```/hotel``` para as cidades
+   - ```GET /hotel``` para listar as cidades cadastradas.
+   - ```POST /hotel``` para cadastrar uma cidade.
+      - O corpo da requisição deverá ter o seguinte formato:
+        ```
+         {
+      	"Name":"Trybe Hotel RJ",
+      	"Address":"Avenida Atlântica, 1400",
+      	"CityId": 2
+         }
+        ```
+   - ```PUT /hotel``` para cadastrar uma cidade.
+      - O corpo da requisição deverá ter o seguinte formato:
+        ```
+         {
+         "Name":"Trybe Hotel RJ",
+         "Address":"Avenida Atlântica, 1400",
+         "CityId": 2
+         }
+        ```
